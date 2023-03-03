@@ -14,182 +14,183 @@
   <body>
     <header>
       <section class="hidden">
-      <div class="container">
-        <nav>
-          <!---<img src="./images/logo1.png" class="logo" />-->
-          <h1>Eric</h1>
+        <div class="container">
+          <nav>
+            <!---<img src="./images/logo1.png" class="logo" />-->
+            <h1>Eric</h1>
 
-          <ul id="sidemenu">
-            <li><a href="#container">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#portfolio">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-          </ul>
+            <ul id="sidemenu">
+              <li><a href="#container">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#hobbies">Hobbies</a></li>
+              <li><a href="#portfolio">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
 
-          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-
-        </nav>
-        <div class="header-text" id="home">
-          <p>Aspiring Web Developer</p>
-          <h1>
-            Hi!, I'm <span>Eric Soriano</span>. <br />It's nice to meet you!
-          </h1>
-        </div>
-       <!---- <div class="get-started"> ---->
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </nav>
+          <div class="header-text" id="home">
+            <p>Aspiring Web Developer</p>
+            <h1>
+              Hi!, I'm <span>Eric Soriano</span>. <br />It's nice to meet you!
+            </h1>
+          </div>
+          <!---- <div class="get-started"> ---->
           <button type="submit" class="btn btn3">Get Started</button>
-       <!---</div>------> 
-      </div>
-      
+          <!---</div>------>
+        </div>
       </section>
     </header>
 
     <!------------ABOUT COLUMN STARTS HERE-->
     <section class="hidden">
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="about-col-1">
-            <img src="./images/IMG_4326.JPG" alt="" />
-            <!--image for my about column-->
-          </div>
-          <div class="about-col-2">
-            <h1 class="sub-title">About me</h1>
-            <p>
-              Hello, I'm an aspiring Web Developer residing in Cavite.  Currently studying Bachelor of Science in Information Technology in Cavite State University Imus
-              23 years old. With surface level knowledge in HTML, CSS and PHP. My goal this year is to learn JavaScript and hopefully use it for future purposes.
-            </p>
-
-            <div class="tab-titles">
-              <p class="tab-links active-link" onclick="opentab('skills')">
-                Target Skills
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="./images/IMG_4326.JPG" alt="" />
+              <!--image for my about column-->
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About me</h1>
+              <p>
+                Hello, I'm an aspiring Web Developer residing in Cavite.
+                Currently studying Bachelor of Science in Information Technology
+                in Cavite State University Imus 23 years old. With surface level
+                knowledge in HTML, CSS and PHP. My goal this year is to learn
+                JavaScript and hopefully use it for future purposes.
               </p>
-              <p class="tab-links" onclick="opentab('experience')">
-                Experience
-              </p>
-              <p class="tab-links" onclick="opentab('education')">Education</p>
-            </div>
-            <div class="tab-contents active-tab" id="skills">
-              <ul>
-                <li><span>Web Designing</span><br />Front End Design</li>
-                <li>
-                  <span>Web Development</span><br />Server side Management
-                </li>
-                <li><span>Web Development</span><br />Back-end Developing</li>
-              </ul>
-            </div>
 
-            <div class="tab-contents" id="experience">
-              <ul>
-                <li><span>Basic Knowledge</span><br />PHP</li>
-                <li><span>Basic Knowledge</span><br />HTML CSS</li>
-                <li><span>Beginner</span><br />JavaScript</li>
-              </ul>
-            </div>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">
+                  Target Skills
+                </p>
+                <p class="tab-links" onclick="opentab('experience')">
+                  Experience
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>Web Designing</span><br />Front End Design</li>
+                  <li>
+                    <span>Web Development</span><br />Server side Management
+                  </li>
+                  <li><span>Web Development</span><br />Back-end Developing</li>
+                </ul>
+              </div>
 
-            <div class="tab-contents" id="education">
-              <ul>
-                <li>
-                  <span>Junior High School</span><br />General Emilio Aguinaldo
-                  High School
-                </li>
-                <li>
-                  <span>Senior High School </span><br />Asian Caregiving
-                  Technology and Education Center
-                </li>
-                <li>
-                  <span>College</span><br />Cavite State University Imus Campus
-                </li>
-              </ul>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>Basic Knowledge</span><br />PHP</li>
+                  <li><span>Basic Knowledge</span><br />HTML CSS</li>
+                  <li><span>Beginner</span><br />JavaScript</li>
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>Junior High School</span><br />General Emilio
+                    Aguinaldo High School
+                  </li>
+                  <li>
+                    <span>Senior High School </span><br />Asian Caregiving
+                    Technology and Education Center
+                  </li>
+                  <li>
+                    <span>College</span><br />Cavite State University Imus
+                    Campus
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     </section>
     <!--------------HOBBIES-------------------------->
-     <section class="hidden">
-    <div id="hobbies">
-      <div class="container">
-        <h1 class="sub-title">My Hobbies</h1>
-        <div class="hobbies-list">
-          <div>
-            <i class="fas fa-headset"></i>
-            <h2>Gaming</h2>
-            <p>
-             My gaming hobby is the reason why I chose the industry of Information Technology, 
-             gaming has been beneficial for me because it provides entertainment as well as 
-             it enhances communication skills which is a critical thing that we need for our everyday lives.
-            </p>
-            <a href="#">Learn more</a>
-          </div>
+    <section class="hidden">
+      <div id="hobbies">
+        <div class="container">
+          <h1 class="sub-title">My Hobbies</h1>
+          <div class="hobbies-list">
+            <div>
+              <i class="fas fa-headset"></i>
+              <h2>Gaming</h2>
+              <p>
+                My gaming hobby is the reason why I chose the industry of
+                Information Technology, gaming has been beneficial for me
+                because it provides entertainment as well as it enhances
+                communication skills which is a critical thing that we need for
+                our everyday lives.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
 
-          <div>
-            <i class="fas fa-film"></i>
-            <h2>Watching Movies</h2>
-            <p>
-             Watching movies has been one of my comfort place whenever I face challenges in my life. 
-             It gives lesson and motivation to strive harder and always get
-              back on my feet even the days are dark.
-            </p>
-            <a href="#">Learn more</a>
-          </div>
+            <div>
+              <i class="fas fa-film"></i>
+              <h2>Watching Movies</h2>
+              <p>
+                Watching movies has been one of my comfort place whenever I face
+                challenges in my life. It gives lesson and motivation to strive
+                harder and always get back on my feet even the days are dark.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
 
-          <div>
-            <i class="fas fa-lightbulb"></i>
-            <h2>Learning random things</h2>
-            <p>
-             One of my hobbies is surfing google about random things that visits my mind. It is always fun and full of surprises.
-            </p>
-            <a href="#">Learn more</a>
+            <div>
+              <i class="fas fa-lightbulb"></i>
+              <h2>Learning random things</h2>
+              <p>
+                One of my hobbies is surfing google about random things that
+                visits my mind. It is always fun and full of surprises.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </section>
 
-     <section class="hidden">
-    <div id="portfolio">
-      <div class="container">
-        <h1 class="sub-title">My Projects</h1>
-        <div class="project-list">
-          <div class="project">
-            <img src="./images/turon.jpg" />
-            <div class="layer">
-              <h3>Sample Project</h3>
-              <p>
-                For now, this is for fun only.
-              </p>
+    <section class="hidden">
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My Projects</h1>
+          <div class="project-list">
+            <div class="project">
+              <img src="./images/turon.jpg" />
+              <div class="layer">
+                <h3>Sample Project</h3>
+                <p>For now, this is for fun only.</p>
+              </div>
+            </div>
+            <div class="project">
+              <img src="./images/eheh.jpg" />
+              <div class="layer">
+                <h3>Sample Project</h3>
+                <p>For now, this is for fun only.</p>
+              </div>
+            </div>
+            <div class="project">
+              <img src="./images/dino.jpg" />
+              <div class="layer">
+                <h3>Sample Project</h3>
+                <p>For now, this is for fun only.</p>
+              </div>
             </div>
           </div>
-          <div class="project">
-            <img src="./images/eheh.jpg" />
-            <div class="layer">
-              <h3>Sample Project</h3>
-              <p>
-               For now, this is for fun only.
-              </p>
-            </div>
-          </div>
-          <div class="project">
-            <img src="./images/dino.jpg" />
-            <div class="layer">
-              <h3>Sample Project</h3>
-              <p>
-                 For now, this is for fun only.
-              </p>
-            </div>
-          </div>
+          <a href="" class="btn">Explore</a>
         </div>
-        <a href="" class="btn">Explore</a>
       </div>
-    </div>
     </section>
     <!-----------------------CONTACT---------------------------->
 
     <section class="hidden">
-    <div id="contact">
+      <div id="contact">
         <div class="container">
           <div class="row">
             <div class="contact-left">
@@ -202,41 +203,53 @@
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#"><i class="fa-brands fa-google"></i></a>
               </div>
-              <a href="./images/Eric Yeoj H. Soriano Resume.pdf" download class="btn btn2">Download my CV</a>
-
+              <a
+                href="./images/Eric Yeoj H. Soriano Resume.pdf"
+                download
+                class="btn btn2"
+                >Download my CV</a
+              >
             </div>
-             <div class="contact-right">
+            <div class="contact-right">
               <form name="submit-to-google-sheet">
-                <input type="text" name="Name" placeholder="Enter your name" required>
-                <input type="email" name="Email" placeholder="Enter your email" required>
-                <textarea name="message" rows="6" placeholder="Enter your message"></textarea>
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Enter your name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="Email"
+                  placeholder="Enter your email"
+                  required
+                />
+                <textarea
+                  name="message"
+                  rows="6"
+                  placeholder="Enter your message"
+                ></textarea>
                 <button type="submit" class="btn btn2">Submit</button>
-
               </form>
-              <span id="msg">Hello</span>
-              
+              <span id="msg" class="hidden">Hello</span>
             </div>
           </div>
         </div>
-
-    </div>
+      </div>
     </section>
     <script>
-      const observer = new IntersectionObserver((entries) =>{
-        entries.forEach((entry) =>{
-          console.log(entry)
-          if (entry.isIntersecting){
-            entry.target.classList.add('show');
-          }else{
-            entry.target.classList.remove('show');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          console.log(entry);
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+          } else {
+            entry.target.classList.remove("show");
           }
         });
       });
-      const hiddenElements = document.querySelectorAll('.hidden');
+      const hiddenElements = document.querySelectorAll(".hidden");
       hiddenElements.forEach((el) => observer.observe(el));
-
-
-
     </script>
     <script>
       // variables
@@ -256,37 +269,34 @@
     </script>
 
     <script>
-        var sidemenu = document.getElementById("sidemenu");
+      var sidemenu = document.getElementById("sidemenu");
 
-        function openmenu(){
-          sidemenu.style.right = "0"
-
-        }
-          function closemenu(){
-          sidemenu.style.right = "-200px"
-
-        }
-
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
     </script>
 
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbwhElB6ia5EjbO7w6n7FXhO2qpnA7bxgxIgnW40Wa3klpXNztE0Em3x0Yw-t2Gfqh_yGw/exec'
-  const form = document.forms['submit-to-google-sheet']
-  const msg = document.getElementById("msg")
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwhElB6ia5EjbO7w6n7FXhO2qpnA7bxgxIgnW40Wa3klpXNztE0Em3x0Yw-t2Gfqh_yGw/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
 
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => {
-          msg.innerText = "Detail submitted successfully"
-          setTimeout(function(){
-            msg.innerHTML = ""
-          },5000)
-          form.reset()
-      })
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerText = "Detail submitted successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
   </body>
 </html>
